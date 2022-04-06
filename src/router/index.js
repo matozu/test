@@ -7,6 +7,10 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
+      path: "/",
+      component: Component_1,
+    },
+    {
       path: "/1",
       component: Component_1,
     },
