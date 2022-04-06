@@ -2,11 +2,11 @@
   <div class="component-1">
     <div>
       <h1>Bok.</h1>
-      <h2>Ja sam mato</h2>
+      <h2>Ja sam mato.</h2>
       <p>Ja sam frontend developer.</p>
       <p>Vrlo sam kreativan.</p>
-      <p>Volim i pase i mačke</p>
-      <p>Najdraža boja mi je plava</p>
+      <p>Volim i pase i mačke.</p>
+      <p>Najdraža boja mi je plava.</p>
     </div>
 
     <router-link class="link" to="/2">version #2 ---></router-link>

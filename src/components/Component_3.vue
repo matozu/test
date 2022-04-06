@@ -4,8 +4,8 @@
       <h1>Bok.</h1>
       <h2>Ja sam mato.</h2>
       <p>Frontend developer.</p>
-      <p>Neki misle da ja nemam osječaje,</p>
-      <p>ali ja imam mnogo raznih osječaja.</p>
+      <p>Neki misle da ja nemam osjećaje,</p>
+      <p>ali ja imam mnogo raznih osjećaja.</p>
 
       <a href="#" @click="showOthers = true"
         >Pogledaj što drugi developeri kažu o mati</a
