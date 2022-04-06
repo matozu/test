@@ -44,7 +44,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/7.jpg");
+  background-image: url(/src/assets/img/7.jpg);
   background-size: cover;
 }
 .pink {

@@ -1,12 +1,15 @@
 {
+  "type": "module",
   "name": "test",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "start": "node index.js"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "sass": "^1.49.7",
     "sass-loader": "^12.4.0",
     "vue": "^3.0.5",

@@ -23,7 +23,7 @@ export default {};
   height: 100%;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/1.jpg");
+  background-image: url(/src/assets/img/1.jpg);
   background-size: cover;
 }
 .card {
