@@ -2,7 +2,7 @@
   <div class="component-2">
     <div class="card">
       <h1>mato</h1>
-      <h2>Najbolji frontend developer u Hrvatskoj.</h2>
+      <h2>Najbolji frontend developer u Hrvatskoj</h2>
       <a>#matojenajbolji</a>
     </div>
     <div class="links">
@@ -25,9 +25,10 @@ export default {};
   align-items: center;
   background-image: url(/src/assets/img/1.jpg);
   background-size: cover;
+  font-size: calc(10px + 0.33vw);
 }
 .card {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   padding: 20px;
   text-align: center;
 }

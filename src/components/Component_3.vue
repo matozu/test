@@ -19,10 +19,10 @@
     >
       <div class="close fa fa-times" @click="showOthers = false"></div>
       <img src="../assets/img/3.jpg" alt="" />
-      <p style="text-align: right">
-        "If you haven't noticed, mato is the best!" <br />
-        <b>Ivan (28)</b>
-      </p>
+      <div class="opinion">
+        <p>"If you haven't noticed, mato is the best!"</p>
+        <p style="text-align: right"><b>Frank (32)</b></p>
+      </div>
     </div>
   </div>
 </template>
@@ -46,6 +46,7 @@ export default {
   align-items: center;
   background-image: url(/src/assets/img/7.jpg);
   background-size: cover;
+  font-size: calc(10px + 0.33vw);
 }
 .pink {
   position: relative;
@@ -65,7 +66,6 @@ p {
 a {
   margin-top: 20px;
   display: block;
-  font-size: 15px;
   text-decoration: none;
   color: blue;
 }
@@ -81,9 +81,12 @@ a {
   transition: all 1s ease-in-out;
   transform: scale(1);
   z-index: 1;
+  width: 80vw;
+  max-width: 400px;
 }
 img {
-  height: 300px;
+  height: 30vw;
+  max-height: 200px;
   margin-right: 30px;
 }
 
