@@ -8,7 +8,6 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      // component: Component_1,
       redirect: "/1",
     },
     {
@@ -22,6 +21,10 @@ const router = createRouter({
     {
       path: "/3",
       component: Component_3,
+    },
+    {
+      path: "/:anything(.*)",
+      redirect: "/1",
     },
   ],
 });
