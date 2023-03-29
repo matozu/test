@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Component_1 from "../components/Component_1.vue";
-import Component_2 from "../components/Component_2.vue";
-import Component_3 from "../components/Component_3.vue";
-
+import Page_1 from "../pages/Page_1.vue";
+import Page_2 from "../pages/Page_2.vue";
+import Page_3 from "../pages/Page_3.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -12,15 +11,15 @@ const router = createRouter({
     },
     {
       path: "/1",
-      component: Component_1,
+      component: Page_1,
     },
     {
       path: "/2",
-      component: Component_2,
+      component: Page_2,
     },
     {
       path: "/3",
-      component: Component_3,
+      component: Page_3,
     },
     {
       path: "/:anything(.*)",
